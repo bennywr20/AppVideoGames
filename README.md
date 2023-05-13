@@ -5,8 +5,5 @@
 -  Poner en práctica recursos básicos de estilos y diseño (UX : UI).
 -  Afirmar y conectar los conceptos aprendidos en la carrera.
 -  Aprender mejores prácticas.
--  Aprender y practicar el workflow de GIT.
--  Utilizar y practicar testing.
-
 <br />
 
