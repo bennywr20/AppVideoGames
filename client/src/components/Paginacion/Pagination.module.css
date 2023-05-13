@@ -1,0 +1,23 @@
+.container_Pagination{
+    margin: 1rem;
+    
+}
+
+.container_Pagination_Btn{
+
+    width: 5rem;
+    height: 1.8rem;
+    margin: 0 1rem;
+    color: #111;
+    
+    border:none;
+    border-radius: 0.4rem;
+    background: #fefefe;
+
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #c2c2c2;
+}
+
+.container_Pagination_Btn:hover{
+    background: #c3c3c3;
+}

@@ -1,0 +1,132 @@
+.container_LandingPage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #fefefe;
+}
+.container_LandingPage_title {
+  font-size: 80px;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  z-index: 1;
+}
+
+.container_LandingPage_subTitle {
+  font-size: 30px;
+  position: absolute;
+  left: 10.2%;
+  top: 35%;
+  z-index: 1;
+}
+
+.container_LandingPage_btnStart {
+  font-size: 20px;
+  color: #fefefe;
+  background: #111;
+  border-radius: 5px;
+  width: 15%;
+  height: 7%;
+
+  position: absolute;
+  left: 10.2%;
+  top: 50%;
+  z-index: 1;
+  cursor: pointer;
+  transition: background 400ms, color 400ms, transform 400ms, font-size 400ms;
+}
+
+.container_LandingPage_btnStart:hover {
+  font-size: 25px;
+  background: #ca0a0a;
+  transform: scale(1.2);
+  border: none;
+}
+
+.container_LandingPage_Wave1 {
+  position: absolute;
+  width: 500px;
+  height: 100vh;
+  right: 0;
+
+  background: url("https://i.blogs.es/8b61d8/apps.18642.14450105286512512.cab7ef72-07af-4401-aca5-e8636b61cce0/840_560.jpg");
+  background-size: cover;
+}
+
+.container_LandingPage_Wave2_span1 {
+  width: 15rem;
+  height: 15rem;
+
+  position: absolute;
+  top: -80px;
+  right: 29rem;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  color: #fefefe;
+  background-color: #fefefe;
+}
+
+.container_LandingPage_Wave2_span2 {
+  width: 15rem;
+  height: 15rem;
+
+  position: absolute;
+  top: 100px;
+  right: 29rem;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  color: #fefefe;
+  background-color: #fefefe;
+}
+.container_LandingPage_Wave2_span3 {
+  width: 15rem;
+  height: 15rem;
+
+  position: absolute;
+  top: 200px;
+  right: 30rem;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  color: #fefefe;
+  background-color: #fefefe;
+}
+
+.container_LandingPage_Wave2_span4 {
+  width: 15rem;
+  height: 15rem;
+
+  position: absolute;
+  top: 350px;
+  right: 30rem;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  color: #fefefe;
+  background-color: #fefefe;
+}
+
+.container_LandingPage_Wave2_span5 {
+  width: 15rem;
+  height: 15rem;
+
+  position: absolute;
+  top: 450px;
+  right: 30rem;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  color: #fefefe;
+  background-color: #fefefe;
+}
+
+.container_LandingPage_Wave2_span6 {
+  width: 15rem;
+  height: 15rem;
+
+  position: absolute;
+  top: 550px;
+  right: 30rem;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  color: #fefefe;
+  background-color: #fefefe;
+}

@@ -1,0 +1,46 @@
+.container_Nav{
+    padding:0.5rem;
+    height: 3rem;
+    background: #111;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 5px solid #000;
+    box-shadow: inset 0px -5px 10px #222222;
+}
+
+.container_Nav_Title{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+
+    color: #efefef;
+}
+
+.container_Nav_Title_Span{
+    font-size: 3rem;
+    color: #00c3ff;
+}
+
+.container_Nav_Nav{
+width: 20rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.container_Nav_Nav_Btn{
+    
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: #efefef;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.container_Nav_Nav_Btn:hover{
+    color: #c3c3c3;
+}

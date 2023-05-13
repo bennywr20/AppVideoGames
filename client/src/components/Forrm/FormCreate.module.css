@@ -1,0 +1,80 @@
+.Container_Container_Container {
+  width: 90%;
+  padding: 2.2rem;
+  margin: 1.5rem auto;
+
+  border-radius: 10px;
+
+  box-shadow: inset 2px 2px 5px #e7e7e7, inset -2px -2px 5px #c3c3c3;
+}
+
+.container_Form {
+  width: 30%;
+
+  padding: 1.7rem;
+
+  left: 6rem;
+
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: -2px -2px 20px #f3f3f3, 2px 2px 0.8rem #c2c2c2;
+}
+
+.container_Form_Title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.container_Form_inputs {
+  width: 50%;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+
+.container_Form_Container_Genres {
+  position: absolute;
+  left: 25rem;
+  top: -1rem;
+}
+
+.container_Form_Container_Platforms {
+  position: absolute;
+  left: 25rem;
+  top: 14rem;
+}
+
+.container_Form_container_checks {
+  width: 35rem;
+  margin: 0.7rem;
+  padding: 0.4rem;
+
+  display: grid;
+  grid-gap: 0.4rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 0.4rem #cccccc;
+}
+
+.container_Form_container_checks_child {
+  text-align: left;
+}
+
+.container_Form_btn {
+  width: 7rem;
+  height: 2rem;
+  margin-top: 1rem;
+  color: #111;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  box-shadow: 0px 0px 5px #555555;
+  background: transparent;
+}
+
+.container_Form_btn:hover{
+  background: #111;
+  color: #efefef;
+}

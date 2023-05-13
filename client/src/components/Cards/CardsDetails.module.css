@@ -1,0 +1,177 @@
+.container_CardDetails {
+    background: #fefefe;
+  }
+  
+  .container_CardDetails_header {
+    width: 100%;
+    height: 50vh;
+  
+    position:relative;
+  
+    margin-bottom: 7rem;
+    background: #efefef;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  
+  .container_CardDetail_comeBack{
+    width: 4rem;
+    height: 2rem;
+  
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    border: none;
+    color: #fefefe;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #000;
+    border-radius:0.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  
+    cursor: pointer;
+    transition: background 400ms , color 200ms;
+  }
+  
+  .container_CardDetail_comeBack:hover{
+    background: #fefefe;
+    color: #111;
+  }
+  
+  .container_CardDetail_containerTitle {
+    width: 50%;
+   
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container_CardDetail_title {
+    
+    font-size: 4rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 600;
+    padding: 10px;
+  
+    
+   
+    color: #fefefe; 
+    border-bottom: 5px solid #fefefe;
+  }
+  
+  .container_CardDetail_containerImage {
+    position: relative;
+    width: 50%;
+  }
+  
+  .container_CardDetail_image {
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 10rem;
+    right: 6rem;
+    box-shadow: 0px 0px 5px #111;
+    border-radius: 5px;
+  }
+  
+  .container_CardDetails_containerDescription {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    position: relative;
+    top: 50px;
+    color: #111;
+  
+    box-shadow: 0px 0px 10px #e2e2e2;
+  }
+  
+  .container_CardDetails_TitleDescription {
+    font-size: 40px;
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: 3px solid black;
+  }
+  
+  .container_CardDetails_description {
+    font-size: 20px;
+  }
+  
+  .container_CardDetails_containerGenres {
+    margin: 0.5rem;
+    height: 10rem;
+    padding: 0.5rem;
+    display: flex;
+    color: #fefefe;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #111;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container_CardDetails_containerTitleGenres {
+    font-size: 40px;
+    font-weight: 500;
+  
+    display: inline-block;
+    border-bottom: 3px solid #fefefe;
+  }
+  
+  .container_CardDetails_container_GGenres {
+    font-size: 20px;
+    font-weight: 500;
+  
+    display: flex;
+    gap: 10px;
+  }
+  
+  .container_CardDetails_conatinerPlat {
+    box-shadow: 0px 0px 10px #e2e2e2;
+    width: 90%;
+    margin: 40px auto;
+    padding: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container_CardDetails_TitlePlat {
+    font-size: 40px;
+  }
+  
+  .container_CardDetails_plat {
+    font: 20px;
+    font-weight: 500;
+  }
+  
+  .container_CardDetails_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fefefe;
+    border: 5px solid #000;
+    background: #000;
+    box-shadow: inset 0px 0px 8px 2px #252525;
+  }
+  
+  .container_CardDetails_footerTitleR {
+    color: #fefefe;
+    font-size: 30px;
+  }
+  
+  .container_CardDetails_footerR {
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  
