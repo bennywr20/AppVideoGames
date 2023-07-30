@@ -6,9 +6,16 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST,
 } = process.env;
 
-const sequelize = new Sequelize(`postgresql://postgres:jf1ES6uyW4MQsCSWHcT6@containers-us-west-140.railway.app:5729/railway`, {
+
+const sequelize = new Sequelize("postgres://default:PJ7GMxnKkRU8@ep-dawn-mode-33907240.us-east-1.postgres.vercel-storage.com:5432/verceldb", {
   logging: false, // set to console.log to see the raw SQL queries
-  native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+  native: false,
+  dialect: 'postgres',
+  protocol: 'postgres',
+  dialectOptions: {
+    ssl: true,
+    native:true
+  } // lets Sequelize know we can use pg-native for ~30% more speed
 });
 const basename = path.basename(__filename);
 
