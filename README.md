@@ -1,5 +1,5 @@
 
-## **📌 OBJETIVOS**
+## **📌 LINK https://videogames-psfrpwwvj-bennywr20.vercel.app/**
 
 -  Construir una Single Page Application utlizando las tecnologías: **React**, **Redux**, **Node**, **Express** y **Sequelize**.
 -  Poner en práctica recursos básicos de estilos y diseño (UX : UI).
