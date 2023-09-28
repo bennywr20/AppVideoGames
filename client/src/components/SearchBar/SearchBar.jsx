@@ -12,7 +12,7 @@ const SearchBar = () => {
   const searchGames = async (value) => {
     try {
       const gamesSerch = await axios.get(
-        `http://localhost:3001/videogames?name=${value}`
+        `https://server-53l5.onrender.com/videogames?name=${value}`
       );
 
       dispatch(addGamesName(gamesSerch.data));
